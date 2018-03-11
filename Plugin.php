@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\Instantactions;
+namespace Kanboard\Plugin\InstantActions;
 
 use Kanboard\Core\Plugin\Base;
 
