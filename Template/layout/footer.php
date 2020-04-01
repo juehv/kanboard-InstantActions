@@ -1,3 +1,4 @@
+<div class="instant-actions">
 <?php if ($this->user->hasProjectAccess('TaskModificationController', 'edit', $task['project_id'])): ?>
 	<?= $this->modal->large(
 			'edit', 
@@ -63,13 +64,7 @@
 		) ?>
 
 <?php endif ?>
-
-
-
-
-
-
-
+</div>
 
 <style>
 .fa.fa-times.fa-fw{
